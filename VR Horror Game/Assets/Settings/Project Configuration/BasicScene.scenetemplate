@@ -64,13 +64,11 @@ MonoBehaviour:
     locomotion.
   preview: {fileID: -7201468737772367373}
   dependencies:
-  - dependency: {fileID: 11400000, guid: 12bd4b8ecc486d84b9e059255860c49b, type: 2}
-    instantiationMode: 0
   - dependency: {fileID: 1727655423317870336, guid: f728b1ac783e8fe4da4bd6b6cc39fcec, type: 3}
     instantiationMode: 0
   - dependency: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     instantiationMode: 1
-  - dependency: {fileID: 2800000, guid: 8685512c7856ffd40a4ad1859a7cb52c, type: 3}
+  - dependency: {fileID: 2100000, guid: 4d40c0aed689414ebd7274c5d48d3b31, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 112000000, guid: a6f3dfdaafa2f584183d0f78ecc38e38, type: 2}
     instantiationMode: 0
@@ -90,19 +88,23 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 100054, guid: ca20b3907ff1c794cb89c1ad2cce8282, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 8851461436730153582, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 8025023ec76092647b988d74a4e08c16, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 7b8bfaee8f8631c4789ac62373cbc2d4, type: 3}
     instantiationMode: 1
+  - dependency: {fileID: 919132149155446097, guid: 5cf65a92c38e46e8b01868268b6c071b, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 100054, guid: d0c255d07fd68f14b94e55d388e7e6bb, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 9100000, guid: 4b5efa0c69d901449a38989140500c0d, type: 2}
     instantiationMode: 0
-  - dependency: {fileID: 100050, guid: 165871bb4fa915847973b6955c7a670d, type: 3}
+  - dependency: {fileID: 919132149155446097, guid: b4bbbf7ba5514e3090f7a19819e98b4a, type: 3}
     instantiationMode: 0
-  - dependency: {fileID: 2100000, guid: 40d5f39ae0668b14f9d71f56c2981be7, type: 2}
+  - dependency: {fileID: 100050, guid: 165871bb4fa915847973b6955c7a670d, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 100050, guid: a91ff20f7450bf446a6bf0bfb5e932ae, type: 3}
     instantiationMode: 0
