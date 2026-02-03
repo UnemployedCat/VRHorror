@@ -119,7 +119,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 127
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 45.52, y: 12.74}
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_SoftShadowQuality: 0
   m_RenderingLayersMask:
     serializedVersion: 0
-    m_Bits: 1
+    m_Bits: 127
   m_ShadowRenderingLayersMask:
     serializedVersion: 0
     m_Bits: 1
@@ -246,7 +246,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 127
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 45.52, y: 12.74}
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_SoftShadowQuality: 0
   m_RenderingLayersMask:
     serializedVersion: 0
-    m_Bits: 1
+    m_Bits: 127
   m_ShadowRenderingLayersMask:
     serializedVersion: 0
     m_Bits: 1
@@ -373,7 +373,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 127
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 45.52, y: 12.74}
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_SoftShadowQuality: 0
   m_RenderingLayersMask:
     serializedVersion: 0
-    m_Bits: 1
+    m_Bits: 127
   m_ShadowRenderingLayersMask:
     serializedVersion: 0
     m_Bits: 1
@@ -500,7 +500,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 127
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 45.52, y: 12.74}
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_SoftShadowQuality: 0
   m_RenderingLayersMask:
     serializedVersion: 0
-    m_Bits: 1
+    m_Bits: 127
   m_ShadowRenderingLayersMask:
     serializedVersion: 0
     m_Bits: 1
@@ -627,7 +627,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 127
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 45.52, y: 12.74}
@@ -663,7 +663,7 @@ MonoBehaviour:
   m_SoftShadowQuality: 0
   m_RenderingLayersMask:
     serializedVersion: 0
-    m_Bits: 1
+    m_Bits: 127
   m_ShadowRenderingLayersMask:
     serializedVersion: 0
     m_Bits: 1
@@ -754,7 +754,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 127
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 45.52, y: 12.74}
@@ -790,7 +790,7 @@ MonoBehaviour:
   m_SoftShadowQuality: 0
   m_RenderingLayersMask:
     serializedVersion: 0
-    m_Bits: 1
+    m_Bits: 127
   m_ShadowRenderingLayersMask:
     serializedVersion: 0
     m_Bits: 1
