@@ -186,6 +186,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7987285208032331231}
     m_Modifications:
+    - target: {fileID: 824531560347674111, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900174642968832443, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1196607183635266135, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -242,6 +250,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1229176227245779870, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1427154682475373442, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
       propertyPath: m_Range
       value: 5.52
@@ -254,6 +266,10 @@ PrefabInstance:
       propertyPath: m_RenderingLayersMask.m_Bits
       value: 127
       objectReference: {fileID: 0}
+    - target: {fileID: 3170431003791290354, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4172992944868328586, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.162
@@ -261,6 +277,10 @@ PrefabInstance:
     - target: {fileID: 7255951924087386858, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.052
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099072553284991911, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8213357944924456597, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
@@ -277,6 +297,10 @@ PrefabInstance:
     - target: {fileID: 8851461436730153582, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
       propertyPath: m_Name
       value: VFX_FullOpaqueFire
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851461436730153582, guid: aa9300c048314dcd92786b6ab7919da4, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -352,13 +376,29 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7903005001077901035, guid: 841baa8227fb1234ca44f681c0836171, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 841baa8227fb1234ca44f681c0836171, type: 3}
       propertyPath: m_Name
       value: Torch
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 841baa8227fb1234ca44f681c0836171, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 841baa8227fb1234ca44f681c0836171, type: 3}
       propertyPath: m_TagString
       value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 3441065719673445547, guid: 841baa8227fb1234ca44f681c0836171, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4620873618669506763, guid: 841baa8227fb1234ca44f681c0836171, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

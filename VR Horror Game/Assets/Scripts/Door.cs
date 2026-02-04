@@ -7,6 +7,9 @@ public class Door : MonoBehaviour
     [SerializeField]
     private Vector3 openDirection; // Existere fordi vi har et skill issue og ikke kan finde ud af at sætte en Vector3 variable
 
+    [SerializeField]
+    private AudioSource openCloseSound;
+
     private Vector3 originalPosition;
 
     [SerializeField]
@@ -53,11 +56,13 @@ public class Door : MonoBehaviour
 
     void OpenDoor()
     {
-       this.transform.position += openDirection;
+        this.transform.position += openDirection;
+        openCloseSound.Play();
     }
 
     void CloseDoor()
     {
         this.transform.position = originalPosition;
+        openCloseSound.Play();
     }
 }

@@ -6,15 +6,22 @@ public class FootSteps : MonoBehaviour
 
     public InputActionProperty move;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public GameObject footStepSound;
+
+    private bool moving;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        moving = move.action.IsPressed();
+
+        if (moving)
+        {
+            footStepSound.SetActive(true);
+        }
+        else
+        {
+            footStepSound.SetActive(false);
+        }
     }
 }
