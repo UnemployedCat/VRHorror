@@ -17,6 +17,7 @@ public class AnimationTrigger : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {   
         animationSound.Play();
+        monsterAnimation.SetBool("Animate", true);
 
         triggerController.NewActiveTrigger();
         triggerController.activeTriggers.Remove(this.gameObject);
