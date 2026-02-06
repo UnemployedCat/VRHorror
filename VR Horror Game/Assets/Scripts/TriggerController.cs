@@ -4,20 +4,18 @@ using UnityEngine;
 
 public class TriggerController : MonoBehaviour
 {
-
+    //Lists for each area of the game
     public List<GameObject> startRooms;
     public List<GameObject> bloodRooms;
     public List<GameObject> foodRooms;
     public List<GameObject> vomitRooms;
     public List<GameObject> longHallwayRoom;
 
-
     private List<GameObject>[] rooms = new List<GameObject>[5];
 
-
+    //How many triggers are activated at once
     [SerializeField]
     private int triggersToActivateOnAwake;
-
         
     public List<GameObject> inactiveTriggers;
     public List<GameObject> activeTriggers;
@@ -43,13 +41,11 @@ public class TriggerController : MonoBehaviour
         {
             trigger.SetActive(false);   
         }
-
         
         for (int i = 0; i < triggersToActivateOnAwake; i++)
         {
             NewActiveTrigger();
         }
-
     }
 
     public void NewActiveTrigger()
@@ -60,31 +56,26 @@ public class TriggerController : MonoBehaviour
         int trigger = 0;
         while (loop)
         {
-        int counter = 0;
-        room = Random.Range(0, rooms.Length);
-        trigger = Random.Range(0, rooms[room].Count);
+            int counter = 0;
+            room = Random.Range(0, rooms.Length);
+            trigger = Random.Range(0, rooms[room].Count);
 
 
-        foreach (GameObject gameObject in activeTriggers)
-        {
-            if (gameObject.GetComponent<AnimationTrigger>().roomID == room)
+            foreach (GameObject gameObject in activeTriggers)
             {
-                counter++;
+                if (gameObject.GetComponent<AnimationTrigger>().roomID == room)
+                {
+                    counter++;
+                }
             }
-        }
-        if (counter == 0)
-        {
-            loop = false;
-        }
+            if (counter == 0)
+            {
+                loop = false;
+            }
         }
 
         rooms[room][trigger].SetActive(true);
         activeTriggers.Add(rooms[room][trigger]);
         inactiveTriggers.Remove(rooms[room][trigger]);
-        
     }
-
-
-
-
 }
